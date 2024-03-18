@@ -1,0 +1,14 @@
+.text {
+    margin: 20px 0 0 0;
+    font-family: 'Poppins', sans-serif;
+    padding: 25px;
+    line-height: 1;
+}
+
+.text li h4 {
+    font-size: 15px;
+}
+
+.text li p {
+    font-size: 12px;
+}

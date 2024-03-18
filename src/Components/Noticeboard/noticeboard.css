@@ -1,0 +1,27 @@
+.notice {
+    position: absolute;
+    display: flex;
+    background-color: #eeeeee;
+    margin: 5rem 0 0 75rem;
+    color: black;
+    width: 63px;
+    height: 260px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.board {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    width: 10px;
+    align-items: end;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}

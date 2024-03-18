@@ -1,0 +1,55 @@
+.card3 {
+    display: grid;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.card3 .section-3,
+.card3 .section-4 {
+    display: grid;
+    padding: 15px;
+
+
+}
+
+.input-group {
+    box-shadow: 0 2px 4px rgba(140, 140, 141, 0.549);
+    margin-top: 10px;
+
+}
+
+.subsec-4 {
+
+    box-shadow: 0 2px 4px rgba(140, 140, 141, 0.549);
+    margin-top: 10px;
+
+}
+
+.subsec-4 ul {
+    box-shadow: 0 2px 4px rgba(140, 140, 141, 0.549);
+}
+
+.subsec-4 ul ol {
+    display: flex;
+    font-size: 10px;
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.subsec-4 ul li {
+    margin: 5px;
+}
+
+.subsec-4 textarea {
+    border: none;
+    width: 100%;
+
+}
+
+.subsec-4 textarea:focus {
+    border-color: transparent;
+    /* Hide the border on focus */
+    outline: none;
+    /* Remove default focus outline */
+}

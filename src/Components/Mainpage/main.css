@@ -1,0 +1,122 @@
+.main {
+    position: absolute;
+    margin: 65px 0 0 0;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    width: 100%;
+}
+
+.section {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 0 155px 0 155px;
+}
+
+.title {
+    display: flex;
+    padding: 18px;
+
+}
+
+.title h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+    color: #0029FF;
+    margin: 0 25rem 0 0;
+}
+
+
+.btn {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0029FF;
+    color: white;
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+    margin: 0 0 0 25px;
+}
+
+.btn:hover {
+    background-color: #0029FF;
+    color: white;
+}
+
+.para {
+
+    position: relative;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(229 229 229);
+    border-radius: 0.5rem;
+    padding: 20px;
+    height: 110px;
+
+
+}
+
+.para h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.para p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    margin: 0;
+}
+
+.assets-container {
+    display: grid;
+    justify-content: center;
+    place-items: center;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    height: 65rem;
+    margin-top: 40px;
+}
+
+.asset-card {
+    height: 85%;
+    width: 85%;
+    row-gap: 10px;
+    border-radius: 10px;
+    background: var(--cardBG);
+    box-shadow: 0 2px 4px rgba(140, 140, 141, 0.549);
+    overflow: hidden;
+    background-color: white;
+}
+
+.asset-card:hover {
+    background: var(--cardHover);
+    box-shadow: 1 4px 4px rgba(85, 85, 114, 0.549);
+    transition: 0.3s ease;
+}
+
+.title-1 {
+    font-size: 15px;
+    background: black;
+    height: 25px;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+
+}
+
+.desc {
+    padding: 10px;
+}
+
+iframe {
+    width: 100%;
+    padding: 10px 0px 90px 0px;
+    object-fit: cover;
+}

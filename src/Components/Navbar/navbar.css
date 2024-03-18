@@ -1,0 +1,59 @@
+.navbar {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .2);
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    z-index: 1;
+}
+
+
+
+
+
+.navbar-brand img {
+    width: 200px;
+    position: relative;
+    margin: 0px 0px 0px 120px;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 0 35rem;
+}
+
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #3683f0;
+    margin: 5px;
+    font-size: 18px;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white !important;
+}
+
+
+.options button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3683f0;
+    border: none;
+    background: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;
+    margin: 0px 10rem 0 0px;
+}

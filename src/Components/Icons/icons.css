@@ -1,0 +1,14 @@
+.icon-3 {
+    display: grid;
+    position: absolute;
+    font-size: 40px;
+    color: blue;
+    margin: 45rem 0rem 0rem 35rem;
+
+}
+
+.subicon {
+    margin: 5px;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, .2);
+    border-radius: 50px;
+}

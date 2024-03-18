@@ -1,0 +1,103 @@
+.accordion {
+    font-family: 'Poppins', sans-serif;
+}
+
+.subsec-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.accordion-button {
+    font-size: 14px;
+    height: 10px;
+}
+
+.sub {
+    display: grid;
+    place-items: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.sub-body {
+    padding: 0px;
+    margin: 24px;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #dcdbdb;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, .2);
+
+}
+
+.accordion-body .sub .sub-body textarea::placeholder,
+.subsec-2 .sub-body textarea::placeholder {
+    font-size: 10px;
+    letter-spacing: 1px;
+    padding: 5px;
+}
+
+.accordion-body .sub-body textarea {
+
+    border-radius: 15px;
+    width: 100%;
+    border: none;
+    resize: none;
+}
+
+.accordion-body .sub-body textarea:focus {
+    border-color: transparent;
+    /* Hide the border on focus */
+    outline: none;
+    /* Remove default focus outline */
+}
+
+
+.accordion-body .sub-body .label-1 {
+    align-items: center;
+    height: 11px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 15px;
+    font-size: 12px;
+}
+
+.symbol-a {
+    margin: 2px;
+}
+
+.sub-down {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-down .dropdown button {
+    font-size: 7px;
+    margin: 2px;
+    padding: 5px;
+    background: white;
+    color: black;
+}
+
+.btn {
+    font-size: 8px;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+
+.subsec-2 {
+    display: grid;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 15px 0 0 0;
+}
+
+#sub-body-1 {
+    width: 190%;
+}
